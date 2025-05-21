@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "A handbook of agile software craftsmanship."
+  },
+  {
+    "id": 2,
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "description": "Deep dive into JavaScript."
+  },
+  {
+    "id": 3,
+    "title": "Angular in Action",
+    "author": "Jeremy Wilken",
+    "description": "Comprehensive Angular guide."
+  },
+  {
+    "id": 4,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "description": "From journeyman to master."
+  },
+  {
+    "id": 5,
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "description": "Improving the design of existing code."
+  },
+  {
+    "id": 6,
+    "title": "Design Patterns",
+    "author": "Erich Gamma",
+    "description": "Elements of reusable object-oriented software."
+  },
+  {
+    "id": 7,
+    "title": "The Clean Coder",
+    "author": "Robert C. Martin",
+    "description": "A code of conduct for professional programmers."
+  },
+  {
+    "id": 8,
+    "title": "JavaScript: The Good Parts",
+    "author": "Douglas Crockford",
+    "description": "Unearthing the excellence in JavaScript."
+  },
+  {
+    "id": 9,
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans",
+    "description": "Tackling complexity in the heart of software."
+  },
+  {
+    "id": 10,
+    "title": "Soft Skills",
+    "author": "John Sonmez",
+    "description": "The software developer's life manual."
+  },
+  {
+    "id": 11,
+    "title": "Working Effectively with Legacy Code",
+    "author": "Michael Feathers",
+    "description": "How to make legacy code more manageable."
+  },
+  {
+    "id": 12,
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "description": "A common sense approach to web usability."
+  },
+  {
+    "id": 13,
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "description": "The standard book on algorithms and data structures. The standard book on algorithms and data structures. The standard book on algorithms and data structures."
+  },
+  {
+    "id": 14,
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "description": "A common sense approach to web usability."
+  }
+]

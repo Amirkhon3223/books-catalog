@@ -1,0 +1,30 @@
+<div class="list-wrapper">
+  <div class="list-header">
+    <mat-form-field appearance="outline" class="search-field">
+      <input matInput
+             placeholder="Поиск по названию или автору"
+             [(ngModel)]="search"
+      />
+    </mat-form-field>
+
+    <button mat-flat-button color="primary" routerLink="/add">
+      + Добавить книгу
+    </button>
+  </div>
+
+  <div class="book-grid">
+    <mat-card class="book-card"
+              *ngFor="let book of filteredBooks"
+              [routerLink]="['/book', book.id]"
+              tabindex="0"
+    >
+      <mat-card-title>{{ book.title }}</mat-card-title>
+      <mat-card-subtitle>{{ book.author }}</mat-card-subtitle>
+      <mat-card-content>
+        <p class="description">
+          {{ book.description.length > 60 ? (book.description | slice:0:60) + '...' : book.description }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
